@@ -19,10 +19,10 @@ print(resultado)
 resultado2 = Estudiante2.estudiante2.query.filter_by(nombre="Jersson")
 print(resultado2.all())
 '''
-''' mostrar por id
-resultado3 = Estudiante2.estudiante2.query.get(3)
+#mostrar por id
+resultado3 = Estudiante2.estudiante2.query.get(4)
 print(resultado3)
-'''
+
 ''' update
 resultado4 = Estudiante2.estudiante2.query.get(3)
 resultado4.nombre="Pedro1111"
@@ -32,6 +32,6 @@ db.session.commit()
 print(resultado4)
 '''
 '''Eliminar registro'''
-resul=Estudiante2.estudiante2.query.get(3)
+'''resul=Estudiante2.estudiante2.query.get(3)
 db.session.delete(resul)
-db.session.commit()
+db.session.commit()'''

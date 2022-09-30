@@ -4,7 +4,7 @@ from flask import request
 from flask_cors import CORS
 import json
 from waitress import serve
-from flask_sqlalchemy import SQLAlchemy ##para hacer nuestra persistencia
+from flask_sqlalchemy import SQLAlchemy ##para hacer nuestra persistencia de datos (conexion a la base de datos)
 
 app=Flask(__name__)
 cors = CORS(app)

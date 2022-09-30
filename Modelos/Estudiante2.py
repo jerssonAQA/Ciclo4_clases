@@ -3,6 +3,7 @@ from app import db
 class estudiante2(db.Model):
     __tablename__="Estudiante"
 
+
     id=db.Column(db.Integer, primary_key=True)
     cedula = db.Column(db.String())
     nombre = db.Column(db.String())
